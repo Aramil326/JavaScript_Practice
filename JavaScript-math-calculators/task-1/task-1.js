@@ -28,25 +28,6 @@ const squareRoots = () => {
       answer1.textContent = 'x1 = ' + (-b - Math.sqrt(discriminant) / (2 * a))
       answer2.textContent = 'x1 = ' + (-b + Math.sqrt(discriminant) / (2 * a))
     }
-
-
-
-
-
-
-
-
-
   })
 }
-
-
-
-
-
-
-
-
-
-
 squareRoots();
