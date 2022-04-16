@@ -73,30 +73,17 @@ const dividers = () => {
     console.log(arr1)
     console.log(arr2)
 
-    if (arr1.length >= arr2.length) {
-      let i = 0, j = 0
-      while (i < arr1.length && j < arr2.length) {
-        if (arr1[i] === arr2[j]) {
-          matched.push(arr1[i])
-          i++
-          j++
-        } else {
-          i++
-        }
-      }
-    } else if (arr1.length < arr2.length) {
-      let i = 0, j = 0
-      while (i < arr1.length && j < arr2.length) {
-        if (arr1[i] === arr2[j]) {
-          matched.push(arr1[i])
-          i++
-          j++
-        } else {
-          j++
-        }
-      }
+    arr1.sort();
+    arr2.sort();
+    let i = arr1.length, j = arr2.length
+    while (i > 0 && j > 0) {
+      i--;
+      j--;
+      if (arr1[i] > arr2[j]) j++;
+      else if (arr1[i] < arr2[j]) i++;
+      else matched.push(arr1[i]);
     }
-
+    console.log(matched);
 
 
     matched.forEach((item, i) => {
