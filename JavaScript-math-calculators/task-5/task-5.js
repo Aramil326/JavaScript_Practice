@@ -20,7 +20,6 @@ const dividers = () => {
 
     let arr1 = [],
       arr2 = [],
-      arr3 = [],
       matched = [],
       result = 0
 
@@ -71,21 +70,36 @@ const dividers = () => {
     findDividers(num1, arr1)
     findDividers(num2, arr2)
 
-    arr1.sort()
-    arr2.sort()
-    let i = arr1.length, j = arr2.length
-    while (i > 0 && j > 0) {
-      i--
-      j--
-      if (arr1[i] > arr2[j]) j++
-      else if (arr1[i] < arr2[j]) i++
-      else matched.push(arr1[i])
+    console.log(arr1)
+    console.log(arr2)
+
+    if (arr1.length >= arr2.length) {
+      let i = 0, j = 0
+      while (i < arr1.length && j < arr2.length) {
+        if (arr1[i] === arr2[j]) {
+          matched.push(arr1[i])
+          i++
+          j++
+        } else {
+          i++
+        }
+      }
+    } else if (arr1.length < arr2.length) {
+      let i = 0, j = 0
+      while (i < arr1.length && j < arr2.length) {
+        if (arr1[i] === arr2[j]) {
+          matched.push(arr1[i])
+          i++
+          j++
+        } else {
+          j++
+        }
+      }
     }
 
-    arr3 = [...arr1, ...arr2]
-    arr3.sort()
 
-    arr3.forEach((item, i) => {
+
+    matched.forEach((item, i) => {
       if (i === 0) {
         result = result + item
       } else {
@@ -93,13 +107,11 @@ const dividers = () => {
       }
     })
 
-    matched.forEach((item, i) => {
-      result = result / item
-    })
-
     const li = document.createElement('li')
     li.textContent = result
     ol.append(li)
+
+    console.log(matched)
   })
 }
 
