@@ -1,0 +1,1 @@
+#### Implement the described keyboard. Let this keyboard be tied to some input, that is, by clicking on it, we will enter data into this input.
