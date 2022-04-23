@@ -20,3 +20,20 @@
  + [Task 3](https://github.com/Aramil326/JavaScript_Practice/tree/master/JavaScript-text-parser/task-3)
  + [Task 4](https://github.com/Aramil326/JavaScript_Practice/tree/master/JavaScript-text-parser/task-4)
  + [Task 5](https://github.com/Aramil326/JavaScript_Practice/tree/master/JavaScript-text-parser/task-5)
+
+4. Guess the number game in JavaScript
+ + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Guess-the-number-game-in-JavaScript)
+
+5. Guess the cell game in JavaScript
+ + [Task 1](https://github.com/Aramil326/JavaScript_Practice/tree/master/Guess-the-cell-game-in-JavaScript/task-1)
+ + [Task 2](https://github.com/Aramil326/JavaScript_Practice/tree/master/Guess-the-cell-game-in-JavaScript/task-2)
+
+6. JavaScript on screen keyboard
+ + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/JavaScript-on-screen-keyboard)
+
+7. Linear Calendar in JavaScript
+ + [Task 1](https://github.com/Aramil326/JavaScript_Practice/tree/master/Linear-Calendar-in-JavaScript/task-1)
+ + [Task 2](https://github.com/Aramil326/JavaScript_Practice/tree/master/Linear-Calendar-in-JavaScript/task-2)
+ + [Task 3](https://github.com/Aramil326/JavaScript_Practice/tree/master/Linear-Calendar-in-JavaScript/task-3)
+ + [Task 4](https://github.com/Aramil326/JavaScript_Practice/tree/master/Linear-Calendar-in-JavaScript/task-4)
+ 
