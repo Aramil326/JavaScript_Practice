@@ -1,1 +1,0 @@
-#### Make a Caps Lock button on your keyboard, which will make all letters be converted to uppercase.
