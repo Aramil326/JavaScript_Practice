@@ -37,3 +37,11 @@
  + [Task 3](https://github.com/Aramil326/JavaScript_Practice/tree/master/Linear-Calendar-in-JavaScript/task-3)
  + [Task 4](https://github.com/Aramil326/JavaScript_Practice/tree/master/Linear-Calendar-in-JavaScript/task-4)
  
+8. Finding tags in JavaScript
+ + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Finding-tags-in-JavaScript)
+
+9. Search for historical events in JavaScript
+ + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Search-for-historical-events-in-JavaScript)
+
+10. Horoscope in JavaScript
+ + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Horoscope-in-JavaScript)
