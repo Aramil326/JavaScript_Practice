@@ -44,4 +44,4 @@
  + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Search-for-historical-events-in-JavaScript)
 
 10. Horoscope in JavaScript
- + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Search-for-historical-events-in-JavaScript)
+ + [Task](https://github.com/Aramil326/JavaScript_Practice/tree/master/Horoscope-in-JavaScript)
