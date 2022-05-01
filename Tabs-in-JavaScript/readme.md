@@ -1,1 +1,1 @@
-#### Сейчас мы с вами реализуем вкладки. 
+#### Now we are implementing tabs.
