@@ -1,0 +1,1 @@
+#### Let's now implement the accordion. It looks like tabs turned on their side. At the same time, in the accordion, you can close the current tab by clicking on the active link.
